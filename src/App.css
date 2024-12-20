@@ -1,0 +1,86 @@
+.app-container {
+  background: linear-gradient(to right, #a6c1ee, #fbc2eb); /* 몽환적인 배경색 */
+  padding: 20px; /* 여백 추가 */
+  border-radius: 10px; /* 둥근 모서리 추가 */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+  max-width: 600px; /* 최대 너비 설정 */
+  margin: auto; /* 가운데 정렬 */
+}
+
+/* 버튼 그룹 스타일 */
+.button-group {
+  display: flex; /* 버튼들을 수평 정렬 */
+  gap: 10px; /* 버튼 간격 */
+}
+
+/* 다른 기존 스타일은 그대로 유지 */
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1; /* 공간을 가득 채우기 */
+}
+
+.add-button {
+  padding: 10px 15px;
+  background-color: #6a5acd; /* 따뜻한 보라색 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px; /* 버튼 간격 */
+}
+
+.add-button:hover {
+  background-color: #5a4fcf; /* 호버 효과 */
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+.todo-item {
+  padding: 10px;
+  border: 1px solid #ddd; /* 테두리 */
+  border-radius: 4px;
+  margin-bottom: 10px; /* 항목 간격 */
+  background-color: #f9f9f9; /* 배경색 */
+  display: flex; /* flexbox 사용 */
+  flex-direction: column; /* 수직 정렬 */
+}
+
+.todo-edit-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: #f44336; /* 빨간색 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.edit-button,
+.update-button {
+  background-color: #2196F3; /* 파란색 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.edit-button:hover,
+.update-button:hover,
+.delete-button:hover,
+.add-button:hover {
+  opacity: 0.8; /* 호버 시 투명도 조정 */
+}
